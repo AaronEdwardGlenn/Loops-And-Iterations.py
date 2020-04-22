@@ -29,4 +29,22 @@ for intigers in numbers:
     for colors in ['blue', 'green', 'red']:
         print(intigers, colors)
 
- # range is a good tool for setting the number of times we want to loop through the set
+# range is a good tool for setting the number of times we want to loop through the set
+for i in range(1, 11):
+    print(i)
+
+# while loops
+x = 0
+
+while x < 10:
+    print(x)
+    x += 1
+
+# adding breaks
+x = 1
+
+while True:
+    if x == 5:
+        break
+    print(x)
+    x += 1
